@@ -10,6 +10,10 @@ router.get('/join', (req, res, next) => {
 	// <input name="userid">
 	// <input name="userpw">
 	// res.render()
+
+	// <form method="POST">
+	// <input type="hidden" name="method" value="_DELETE">
+	// <input type="hidden" name="method" value="_PUT">
 })
 
 router.post('/join', (req, res, next) => {
