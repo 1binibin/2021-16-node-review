@@ -1,0 +1,19 @@
+<script>
+console.log(1+1)
+setTimeout(function () { console.log(2+2) },1000)
+console.log(3+3)
+/**
+ * stack
+ * - 코드를 한줄한줄 집어놓고 한줄한줄 실행
+ * - 싱글쓰레드라서 한번에 코드 하나밖에 실행못함
+ * -setTimeout바로 실행 X 대기실로 보냄
+ * ajax, setTimeout, eventListener등등
+ * 1초가 지남 -> queue대기실로 보냄 줄을 세움 그다음에 순서대로 스택으로보냄
+ * stack은 바쁨
+ * 조건: 스택이 텅비었을때만 올리고 실행
+ * setTImeout 0초 : 무조건 대기실로 보냄
+ * heap
+ * - 변수저장
+ * 
+ */
+</script>
